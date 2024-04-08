@@ -150,10 +150,6 @@ h2{
 }
 
 
-.tecnico{
-    text-align: left;
-    font-size: 100%;
-}
 
 
 .btn-whatsapp{
@@ -198,14 +194,9 @@ h2{
     background-color: #ffffff;
     color: #000000;
     text-align: center;
-    text-indent: 35rem;
     padding: 10px;
-    font-size: 60%;
+    font-size: 10px;
     font-weight: 300;
     margin-right: 100px;
-}
-
-#dev{
-    font-size: 10px;
-    text-align: center;
+    justify-content: space-between;
 }
