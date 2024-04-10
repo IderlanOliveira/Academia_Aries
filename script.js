@@ -1,4 +1,6 @@
-function redirecionarParaWhatsapp(){
+// Código para redirecionamento - inicio
+
+function redirecionarParaWhatsapp(){ 
 
     let userAgent = navigator.userAgent || navigator.vendor || window.open
     let telefone = this.getAttribute("data-phone");
@@ -17,7 +19,10 @@ let buttons = document.querySelectorAll(".btn-whatsapp");
 buttons.forEach(function(button){
     button.addEventListener("click", redirecionarParaWhatsapp);
 })
+// Termino
 
+
+// Código para botão com rolamento suave - Ínicio
 document.querySelectorAll(".scrollButton").forEach(function(button) {
     button.addEventListener("click", function() {
         var scrollToPosition = parseInt(this.getAttribute("data-scrollToPosition")); // Obtém a posição de rolagem a partir do atributo de dados
@@ -27,3 +32,4 @@ document.querySelectorAll(".scrollButton").forEach(function(button) {
         });
     });
 });
+// Termino
